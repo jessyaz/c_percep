@@ -1,0 +1,1 @@
+void validation_process(SDL_Renderer * renderer, SDL_Texture * texture, SDL_Texture * t_renderer, SDL_Surface * surface);

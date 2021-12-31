@@ -1,0 +1,1 @@
+void trace_line(SDL_Point * A, SDL_Point * B, SDL_Renderer * renderer);
