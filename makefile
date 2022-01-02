@@ -5,3 +5,4 @@ perceptron: ./src/main.c
 	make clean
 clean:
 	rm ./bin/run.out
+	rm ./bin/temp.csv 

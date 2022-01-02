@@ -85,7 +85,7 @@ void load_pic() {
    
 
     //partie execution de commande système pour execution du script python.
-    const char * command = "python predict.py"; //Commande pour executer python
+    const char * command = "python ./src/predict.py"; //Commande pour executer python
     int cr = system( command ); //Execution de la commande grace à la fonction native system();
     if ( cr != 0 ) { //on verrifie si la commande a bien été executé.
         fprintf( stderr, "Impossible de lancer la commande : %s\n", command ); //Erreur si la commande n'a pas été executer pour une raison retourné. (exemple: erreur de syntaxe dans le script, droit d'execution, etc...)
