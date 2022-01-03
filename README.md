@@ -3,7 +3,7 @@
 c_percep est un programme de dessin et de reconnaissance de chiffre.
 c_percep est un projet d'études de deuxième années.
 
-#INSTALLATION
+# INSTALLATION
 - Avoir installé python et les librairies ci-dessous.
 
 -> installation de scikit-image librairie
