@@ -2,6 +2,7 @@ from skimage.transform import resize
 import matplotlib.pyplot as plt
 import numpy as np
 from keras.models import load_model
+#from '../keraslib.models' import load_model
 
 image = plt.imread('./bin/temp.bmp') #Lecture de l'image enregistré par le programme C.
 model = load_model('./src/model_cnn.h5') #Chargement du modele de machine learning.
