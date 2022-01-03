@@ -1,5 +1,5 @@
 perceptron: ./src/main.c
-	gcc ./src/*.c -o ./bin/run.out $(sdl2-config --cflags --libs) -I /usr/local/opt/sdl2/include/SDL2/ -L/usr/local/lib -lSDL2 -ltensorflow -lm
+	gcc ./src/*.c -o ./bin/run.out $(sdl2-config --cflags --libs) -I./src/lib/sdl/ -lSDL2 -lm
 
 	./bin/run.out
 	make clean
