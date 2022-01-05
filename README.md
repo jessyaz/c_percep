@@ -8,11 +8,14 @@ c_percep est un projet d'études de deuxième années.
 -> SDL incompatible avec les processeur silicon M1. (ou utiliser rosetta)
 
 # INSTALLATION
+
 - Avoir le compilateur gcc.
-- Avoir installer la librairie SDL2 et avoir verrifier que 
+
+- Avoir installer la librairie SDL2 correctement pour une utilisation avec gcc.
 
 - Avoir installé python et les librairies ci-dessous.
-- Effectuer un git clone du repo 
+
+Si anaconda est déjà installer ne pas suivre les flèches suivantes et passer à l'execution. (anaconda possède initialement ces librairies)
 
 -> installation de scikit-image librairie
     # Update pip
@@ -27,6 +30,10 @@ c_percep est un projet d'études de deuxième années.
 -> installation de matplotlib
     python -m pip install -U matplotlib
     
+    
+    
+- Effectuer un git clone du repo grâce à la commande : git clone https://github.com/jessyaz/c_percep/
+
 
 
 #EXECUTION
