@@ -31,7 +31,7 @@ int main() {
     }
 
 
-    window = SDL_CreateWindow("Reconnaissance de chiffre.", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 468, 530, 0); //Creation de la fenetre
+    window = SDL_CreateWindow("Reconnaissance de chiffres.", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 468, 530, 0); //Creation de la fenetre
     renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_SOFTWARE); //Creation du rendu sur la fenetre window.
     picture = SDL_LoadBMP("./src/images/backg.bmp"); //On recupère l'image background.
     texture = SDL_CreateTextureFromSurface(renderer, picture); //On crée la texture incluant le rendu et l'image.
