@@ -34,7 +34,7 @@ Si anaconda est déjà installer ne pas suivre les flèches suivantes et passer 
     
 - Effectuer un git clone du repo grâce à la commande : git clone https://github.com/jessyaz/c_percep/
 
-
+- S'assurer du bon chemin de la SDL dans le makefile
 
 #EXECUTION
 
