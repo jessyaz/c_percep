@@ -1,6 +1,6 @@
 # Reconnaissance de chiffres manuscrits : interface graphique en C et réseau de neurones convolutif
 
-**Projet universitaire 2021/2022 --- 2 ème année de licence**
+**Projet universitaire 2021-2022 — 2ᵉ année de licence**
 
 Auteur : Jessy A. (GitHub : [@jessyaz](https://github.com/jessyaz))
 Dépôt : <https://github.com/jessyaz/c_percep>
